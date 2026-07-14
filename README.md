@@ -1,5 +1,8 @@
 ﻿# DadaSultanAuction 1.0
 
+<p align="center"><img src="assets/dadasmp-logo.png" alt="DadaSMP" width="180"></p>
+
+
 > Evento Asta del Sultano con puntate live, NPC e premi esclusivi.
 
 ![Minecraft](https://img.shields.io/badge/Minecraft-1.20%2B-green?style=for-the-badge)
