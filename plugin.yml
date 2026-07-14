@@ -1,0 +1,19 @@
+name: DadaSultanAuction
+version: '1.0.0'
+main: it.dadasmp.sultano.DadaSultanAuctionPlugin
+api-version: '1.20'
+author: DadaSMP
+description: Evento Asta del Sultano con puntate live, NPC e premi esclusivi.
+softdepend: [Vault, DadaShop]
+commands:
+  sultano:
+    description: Apre o gestisce l'Asta del Sultano.
+    usage: /sultano [admin|start|stop|reload|setspawn|bid <importo>]
+    aliases: [astaevento, astasultano, sultan]
+permissions:
+  dadasultano.use:
+    description: Permette di aprire l'asta e puntare.
+    default: true
+  dadasultano.admin:
+    description: Permette di gestire l'evento.
+    default: op
